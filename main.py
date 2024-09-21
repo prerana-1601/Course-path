@@ -4,7 +4,9 @@ import os
 # Import modules
 from openai_backend import Assistant
 
-api_key = os.getenv('OPENAI_API_KEY')
+
+api_key=st.secrets["openai_secret_key"]
+
 # Initialize agent
 if 'agent' not in ss:
     ss.agent = Assistant()
