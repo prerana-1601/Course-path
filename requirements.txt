@@ -1,0 +1,7 @@
+openai==1.14.3
+streamlit==1.35.0
+streamlit-chat==0.1.1
+toml==0.10.2
+tomlkit==0.12.0
+python-dotenv==1.0.1
+DateTime==5.5
